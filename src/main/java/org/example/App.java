@@ -23,9 +23,9 @@ public class App
 
         int s2 = length*width;
         //amount one gallon of paint covers
-        double gCoverage = 350.0;
+        double gCoverage = 350;
         //pNeeded = paint needed
-        double pNeeded = ((int) Math.ceil(s2/gCoverage));
+        int pNeeded = ((int) Math.ceil(s2/gCoverage));
 
         System.out.println("You will need " + pNeeded + " gallons of paint to cover " + s2 + " square feet.");
 
